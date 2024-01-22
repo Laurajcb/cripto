@@ -1,0 +1,38 @@
+.desktop_col {
+  display: none;
+}
+
+.coin_name_container {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.coin_name_container>img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.price_market_cap {
+  text-align: right;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 0.875rem;
+}
+
+.market_cap {
+  color: #828282;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  line-height: 0.6875rem;
+}
+
+@media(width > 1000px) {
+  .desktop_col {
+    display: table-cell;
+  }
+
+  .mobile_col {
+    display: none;
+  }
+}

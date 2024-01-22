@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background: #1B004E;
+  color: white;
+  padding: 2rem 1rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.desktop_col { 
+  display: none;
+}
+
+.price_market_cap {
+  text-align: right;
+}
+
+@media(width > 1000px) {
+  .container {
+    background: linear-gradient(273deg, #4E0062 0.43%, #220076 99.56%);
+    padding: 1.5rem 5rem;
+  }
+
+  .desktop_col { 
+    display: table-cell;
+  }
+
+  .mobile_col {
+    display: none;
+  }
+
+}
